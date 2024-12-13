@@ -192,15 +192,16 @@ body {
   background-size: cover;
 }
 
-.portada-cabos{
-  background: url('../public/img/cabos/portada-cabos.webp') 50% 50%;
+.portada-vallarta-inicio{
+  background: url('../public/img/vallarta/portada-vallarta.jpg') 50% 50%;
   background-attachment: fixed;
-  background-position: 0px -84px;
+  background-position: 0px -90px;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-.portada-cabos-final{
-  background: url('../public/img/cabos/portada-cabos-final.webp') 50% 50%;
+.portada-vallarta-final{
+  background: url('../public/img/vallarta/vallarta-final.jpg') 50% 50%;
   background-size: cover;
 }
 
@@ -322,7 +323,7 @@ body {
     width: 90%;
   }
 
-  .portada-cabos{
+  .portada-vallarta-inicio{
     background-size: cover;
     background-attachment: inherit;
     background-position: 0px;

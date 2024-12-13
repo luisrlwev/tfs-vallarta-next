@@ -88,13 +88,13 @@ export default function Footer() {
   return (
     <footer className='bg-footer-2 '>
       <div className="py-10 overlay-footer-final">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 container mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 container mx-auto">
           <div className="grid justify-center items-center">
             <Link className="h-max max-lg:pb-10" href={'/'}><Image src={'/img/logo-gif.gif'} width={354} height={201} alt="Logo TFS"/></Link>
             <div className="flex justify-center items-center gap-3 text-tfs h-max max-lg:pb-8">
-              <a href="https://www.instagram.com/loscabosfromsky/" target="_blank" aria-label="Instagram"><FaInstagram className="hover text-3xl"/></a>
-              <a href="https://www.facebook.com/FromskyLosCabos" target="_blank" aria-label="Facebook"><FaFacebookF className="hover text-3xl"/></a>
-              <a href="https://wa.me/529841820785" className="flex items-center w-fit h-fit hover" target='_blank'><FaWhatsapp className="mr-3 text-3xl"/> +52 (624) 123 8954</a>
+              <a href="https://www.instagram.com/vallartafromsky/" target="_blank" aria-label="Instagram"><FaInstagram className="hover text-3xl"/></a>
+              <a href="https://www.facebook.com/VallartaFromsky" target="_blank" aria-label="Facebook"><FaFacebookF className="hover text-3xl"/></a>
+              <a href="https://wa.me/526241687852" className="flex items-center w-fit h-fit hover" target='_blank'><FaWhatsapp className="mr-3 text-3xl"/> +52 (322) 179 1687</a>
             </div>
           </div>
           <div>
@@ -145,13 +145,6 @@ export default function Footer() {
                 </div>
               </div>
             </form>
-          </div>
-          <div className="grid content-center px-3 py-8">
-            <p className="text-center text-white uppercase font-bold letter-spacing-25 pb-4 lg:pb-8 w-full text-lg lg:text-base">{t('licencias')}</p>
-            <div className="grid grid-cols-2 justify-items-center items-center">
-              <Image src={'/img/ampi-los-cabos.png'} width={250} height={87} alt="AMPI Los Cabos"/>
-              <Image src={'/img/realtor.png'} width={86} height={100} alt="Realtor"/>
-            </div>
           </div>
         </div>
       </div>

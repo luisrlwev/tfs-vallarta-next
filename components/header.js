@@ -18,7 +18,7 @@ export default function Header() {
         <nav className="flex items-center text-white">
             <p className="uppercase letter-spacing-25 font-normal text-base lg:pr-4 max-lg:hidden">{t('contactanos')}</p>
             <div className='flex items-center text-xl gap-4 px-4 max-lg:px-2 lg:pr-16'>
-                <a href="mailto:info@fromskyrealtors.com"><FaEnvelope /></a><a href="https://wa.me/529841820785" target='_blank'><FaWhatsapp /></a><a href="https://www.instagram.com/loscabosfromsky/" target='_blank'><FaInstagram/></a><a href="https://www.facebook.com/FromskyLosCabos" target='_blank'><FaFacebookF/></a>
+                <a href="mailto:info@fromskyrealtors.com"><FaEnvelope /></a><a href="https://wa.me/526241687852" target='_blank'><FaWhatsapp /></a><a href="https://www.instagram.com/vallartafromsky/" target='_blank'><FaInstagram/></a><a href="https://www.facebook.com/VallartaFromsky" target='_blank'><FaFacebookF/></a>
             </div>
             {/* Muestra el idioma actual y proporciona enlaces para cambiar */}
             <Link href={{ pathname, query }} as={asPath} locale="es" className={`mr-2 ${locale === 'es' ? 'text-tfs font-bold' : ''}`}>

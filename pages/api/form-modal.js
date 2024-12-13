@@ -5,7 +5,7 @@ const handler = async (req, res) => {
   // Tu lógica de envío de correo...
   const { nombre, email, tel, tipo, mensaje, condiciones, fechaEnvio, horaEnvio, paginaEnvio, formularioOrigen } = req.body;
 
-  let subjectLine = 'Franquicia Cancún';
+  let subjectLine = 'Sede Vallarta';
   if (formularioOrigen) {
     subjectLine = `Formulario - ${formularioOrigen}`;
   }
